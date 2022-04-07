@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: url("desktop.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .calculator{
+    background: linear-gradient(to bottom right, rgb(0, 48, 73), rgb(214, 40, 40));
+    border-radius: 20px;
+    padding: 1.5rem .75rem;
+  }
+  .buttons-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .display{
+    background-color: white;
+    padding: .2rem 1rem;
+  }
+
+  .display-op{
+      font-size: 1.5rem;
+      
+  }
+  .digit{
+    background: rgb(234, 226, 183);
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 100px;
+    padding: .2rem .6rem
+  }
+  
+  @media screen and (min-width: 350px) {
+    .container{
+    max-width: 70%;
+  }
+    .display{
+    background-color: white;
+    padding: .3rem 1rem;
+  }
+    .digit{
+    font-size: 1.5rem;
+    padding: .3rem .9rem
+  }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .container{
+    max-width: 50%;
+  }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .container{
+    max-width: 40%;
+  }
+    .display{
+    padding: .3rem 1.8rem;
+    
+  }
+    .digit{
+    font-size: 2.5rem;
+    padding: .3rem .9rem
+  }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .container{
+    max-width: 40%;
+  }
+    .calculator{
+    padding: 3rem 2rem;
+  }
+    .display{
+    padding: 1rem 4.5rem;
+    
+  }
+    .digit{
+    font-size: 3rem;
+    padding: .4rem 1.3rem
+  }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container{
+    max-width: 400px;
+  }
+    .calculator{
+    padding: 3rem 2rem;
+  }
+  
+  .display{
+    background-color: white;
+    padding: 1rem 6rem;
+  }
+  .digit{
+    font-size: 3.5rem;
+    text-align: center;
+    border-radius: 100px;
+    padding: .5rem 1.3rem
+  }
+  
+  }
