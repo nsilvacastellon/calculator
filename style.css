@@ -26,13 +26,14 @@ body{
     align-items: center;
     gap: 1rem;
   }
-  .display{
+  /* .display{
     background-color: white;
     padding: .2rem 1rem;
-  }
+  } */
 
   .display-op{
-      font-size: 1.5rem;
+      font-size: 1rem;
+      padding: .4rem 1rem;
       
   }
   .digit{
@@ -47,10 +48,11 @@ body{
     .container{
     max-width: 70%;
   }
-    .display{
-    background-color: white;
-    padding: .3rem 1rem;
-  }
+  .display-op{
+    font-size: 1rem;
+    padding: .4rem 1rem;
+    
+}
     .digit{
     font-size: 1.5rem;
     padding: .3rem .9rem
@@ -67,10 +69,11 @@ body{
     .container{
     max-width: 40%;
   }
-    .display{
-    padding: .3rem 1.8rem;
+  .display-op{
+    font-size: 1.2rem;
+    padding: .4rem 1rem;
     
-  }
+}
     .digit{
     font-size: 2.5rem;
     padding: .3rem .9rem
@@ -84,10 +87,11 @@ body{
     .calculator{
     padding: 3rem 2rem;
   }
-    .display{
-    padding: 1rem 4.5rem;
+  .display-op{
+    font-size: 1.5rem;
+    padding: .6rem 1.2rem;
     
-  }
+}
     .digit{
     font-size: 3rem;
     padding: .4rem 1.3rem
@@ -102,10 +106,10 @@ body{
     padding: 3rem 2rem;
   }
   
-  .display{
-    background-color: white;
-    padding: 1rem 6rem;
-  }
+  .display-op{
+    font-size: 1.7rem;
+    padding: .8rem 1.2rem;
+}
   .digit{
     font-size: 3.5rem;
     text-align: center;
